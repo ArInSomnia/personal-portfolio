@@ -1,0 +1,459 @@
+<html>
+<head>
+<link rel="icon" href="images/header/logo.png" type="image/png">
+
+    <title>About Myself</title>
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #e0e0e0;
+        }
+
+        /* Header Styles */
+        header {
+            background: #111;
+            color: #fff;
+            padding: 20px 10%;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            color: cyan;
+        }
+
+        /* Main Content Styles */
+        .main-content {
+            padding: 40px 10%;
+            text-align: center;
+        }
+
+        .main-content h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #111;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 800px;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #111;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        td {
+            background-color: #fff;
+            color: #555;
+        }
+
+        .profile-pic {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-pic img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #111;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10%;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: cyan;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration:
+        }
+		
+		.footer-icons a img {
+		width: 30px; 
+		height: 30px;
+		margin: 0 10px; 
+		transition: filter 0.3s ease, transform 0.3s ease; 
+		}
+
+		.footer-icons a img:hover {
+		transform: scale(1.1); 
+		}
+		
+		/* Anchor */
+		.scroll-to-top {
+		position: fixed; 
+		bottom: 20px; 
+		right: 20px; 
+		}
+
+		.scroll-button {
+		background-color: cyan; 
+		color: black; 
+		padding: 10px 20px; 
+		border: none; 
+		border-radius: 5px; 
+		text-decoration: none; 
+		font-size: 1rem; 
+		cursor: pointer; 
+		transition: background-color 0.3s; 
+		}
+
+		.scroll-button:hover {
+		color:white;
+		background-color: #1abc9c; 
+		}
+
+		html {
+		scroll-behavior: smooth;
+		}
+		
+		 /* Spotify-like Music Player */
+        .music-player {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: #282828;
+            color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .music-player img {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        .track-info {
+            flex: 1;
+        }
+
+        .track-info h4 {
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        .track-info p {
+            font-size: 0.8rem;
+            color: #b3b3b3;
+        }
+
+        .music-player button {
+		background: none;
+		border: none;
+		color: cyan; 
+		font-size: 1.5rem;
+		cursor: pointer;
+		}
+
+		.music-player button:hover {
+		color: #1abc9c; 
+		}	
+
+		.music-player button.active {
+		color: cyan; 
+		}	
+
+
+        .music-player input[type='range'] {
+            width: 100px;
+			 accent-color:cyan;
+        }
+
+        .timer {
+            font-size: 0.8rem;
+            color: #b3b3b3;
+        }
+    </style>
+</head>
+<body id="top">
+    <header>
+        <h1>✦ABOUT ME✦</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="education.html">Education</a>
+            <a href="achievement.html">Achievement</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="friends&family.html">Friends & Family</a>
+        </nav>
+    </header>
+    <div class="main-content">
+        <h2><marquee>☯My Biography☯</marquee></h2>
+        <table>
+            <tr>
+                <td colspan="2" class="profile-pic">
+                    <img src="images/aboutme/profileaboutme.jpeg" alt="Profile Picture">
+                </td>
+            </tr>
+            <tr>
+                <th>Full Name</th>
+                <td>Muhammad Nadzrin Nazmi bin Muhrim</td>
+            </tr>
+            <tr>
+                <th>Date of Birth</th>
+                <td>December 16, 2004</td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td>Taman Desa Sentosa, Hulu Langat, Selangor</td>
+            </tr>
+            <tr>
+                <th>Interests</th>
+                <td>
+				<ul>
+                    <li>Photography</li>
+                    <li>Music</li>
+                    <li>Gaming</li>
+					<li>Driving</li>
+                </ul>
+				</td>
+            </tr>
+            <tr>
+                <th>Skills</th>
+                <td>
+				<ul>
+                    <li>Web Development</li>
+                    <li>Graphic Design</li>
+                    <li>Problem Solving</li>
+					<li>Brainstorming</li>
+                </ul>
+				</td>
+            </tr>
+            <tr>
+                <th>Favorite Quote</th>
+                <td>
+				<ul>
+					<li>“Sometimes, all you can do is lie in bed, and hope to fall asleep before you fall apart.” - Unknown</li>
+					<li>“We are all just stories in the end.” — The Last of Us Part I </li>
+					<li>"With great power, comes with great responsibility." - Uncle Ben</li>
+				</ul>
+				</td>
+            </tr>
+            <tr>
+                <th>Current Job</th>
+                <td>Studying at UiTM Rembau</td>
+            </tr>
+            <tr>
+                <th>Languages Spoken</th>
+                <td>
+				<ul>
+					<li>Bahasa Melayu</li>
+					<li>English</li>
+				</ul>
+					</td>
+            </tr>
+            <tr>
+                <th>Hobbies</th>
+                <td>
+                <ul>
+                    <li>Traveling</li>
+                    <li>Playing sports</li>
+                    <li>Thrifting</li>
+                </ul>
+                </td>
+            </tr>
+			<tr>
+                <th>Favourite Playlist</th>
+                <td><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5BFMQjliwGdk3rEjTEOhjN?utm_source=generator" 
+				width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+				loading="lazy"></iframe></td>
+            </tr>
+        </table>
+    </div>
+	
+	<div class="scroll-to-top">
+    <a href="#top" class="scroll-button">Back to Top</a>
+	</div>
+	
+<footer>
+    <p>© 2024 Nadzrin Nazmi | Designed with passion</p>
+		<p>
+            <a href="contact.html">Contact Me</a>
+        </p>
+    <div class="footer-icons">
+        <a href="https://www.instagram.com/arincantsleep?igsh=MXhwYW9rbnZodmg1Yw%3D%3D&utm_source=qr" target="_blank">
+            <img src="images/footer/instagram-footer.png" alt="Instagram" class="icon">
+        </a>
+        <a href="https://x.com/_littlerin_?s=11" target="_blank">
+            <img src="images/footer/twitter-footer.png" alt="Twitter" class="icon">
+        </a>
+        <a href="https://snapchat.com/t/AoN7hTR6" target="_blank">
+            <img src="images/footer/snapchat-footer.png" alt="Snapchat" class="icon">
+        </a>
+		<a href="https://www.tiktok.com/@nadzzzrin?_t=ZS-8soR1Bdgj7X&_r=1" target="_blank">
+            <img src="images/footer/tiktok-footer.png" alt="tiktok" class="icon">
+        </a>
+        <a href="https://open.spotify.com/user/31rdvhptnh3q37zqp5n4gqfluwme?si=f3742f0013864d0d" target="_blank">
+            <img src="images/footer/spotify-footer.png" alt="Spotify" class="icon">
+        </a>
+    </div>
+</footer>
+
+  <div class="music-player">
+        <img src="images/album-cover.jpg" alt="Album Cover">
+        <div class="track-info">
+            <h4 id="track-title">Song Title</h4>
+            <p id="track-artist">Artist Name</p>
+            <span class="timer" id="current-time">0:00</span> / <span class="timer" id="total-time">0:00</span>
+        </div>
+        <button id="prev">⏮</button>
+        <button id="play-pause">▶️</button>
+        <button id="next">⏭</button>
+        <input type="range" id="volume" min="0" max="1" step="0.1" value="0.5">
+    </div>
+	
+	<script>
+        const songs = [
+            { title: 'Blue', artist: 'Young Kai', src: 'audio/song1.mp3', cover: 'images/album/blue.jpg' },
+            { title: 'Love', artist: 'Wave To Earth', src: 'audio/song2.mp3', cover: 'images/album/love.png' },
+            { title: 'Lily Of The Valley', artist: 'Daniel', src: 'audio/song3.mp3', cover: 'images/album/lilyofthevalley.jpg' },
+			{ title: 'seasons', artist: 'Wave To Earth', src: 'audio/song4.mp3', cover: 'images/album/seasons.jpg' },
+			{ title: 'If Its Not You', artist: 'PRYVT', src: 'audio/song5.mp3', cover: 'images/album/ifitsnotyou.jpg' },
+			{ title: 'Space', artist: 'The Poles', src: 'audio/song6.mp3', cover: 'images/album/space.jpg' }
+        ];
+
+        let currentSongIndex = 0;
+        const albumCover = document.querySelector('.music-player img');
+        const audioPlayer = new Audio(songs[currentSongIndex].src);
+        const playPauseButton = document.getElementById('play-pause');
+        const volumeControl = document.getElementById('volume');
+        const trackTitle = document.getElementById('track-title');
+        const trackArtist = document.getElementById('track-artist');
+        const currentTimeDisplay = document.getElementById('current-time');
+        const totalTimeDisplay = document.getElementById('total-time');
+
+        function loadSong(index) {
+		const song = songs[index];
+
+		// Set track info and album cover
+		audioPlayer.src = song.src;
+		trackTitle.textContent = song.title;
+		trackArtist.textContent = song.artist;
+		albumCover.src = song.cover;
+
+		
+		audioPlayer.addEventListener('loadedmetadata', () => {
+        const totalMinutes = Math.floor(audioPlayer.duration / 60);
+        const totalSeconds = Math.floor(audioPlayer.duration % 60);
+        totalTimeDisplay.textContent = `${totalMinutes}:${totalSeconds < 10 ? '0' : ''}${totalSeconds}`;
+		});
+
+		// Play the song automatically
+		audioPlayer.play();
+		playPauseButton.textContent = '⏸';
+		}
+
+		function updateTimer() {
+		
+		if (!isNaN(audioPlayer.duration)) {
+        const minutes = Math.floor(audioPlayer.currentTime / 60);
+        const seconds = Math.floor(audioPlayer.currentTime % 60);
+        const totalMinutes = Math.floor(audioPlayer.duration / 60);
+        const totalSeconds = Math.floor(audioPlayer.duration % 60);
+
+        currentTimeDisplay.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        totalTimeDisplay.textContent = `${totalMinutes}:${totalSeconds < 10 ? '0' : ''}${totalSeconds}`;
+		} else {
+        // Display placeholders if metadata isn't loaded
+        currentTimeDisplay.textContent = '0:00';
+        totalTimeDisplay.textContent = '0:00';
+		}
+		}
+
+		audioPlayer.preload = "metadata";
+
+        audioPlayer.addEventListener('timeupdate', updateTimer);
+
+        document.getElementById('prev').addEventListener('click', () => {
+            currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
+            loadSong(currentSongIndex);
+        });
+
+        document.getElementById('next').addEventListener('click', () => {
+            currentSongIndex = (currentSongIndex + 1) % songs.length;
+            loadSong(currentSongIndex);
+        });
+
+        playPauseButton.addEventListener('click', () => {
+		if (audioPlayer.paused) {
+        audioPlayer.play();
+        playPauseButton.textContent = '⏸';
+        playPauseButton.classList.add('active'); 
+		} else {
+        audioPlayer.pause();
+        playPauseButton.textContent = '▶';
+        playPauseButton.classList.remove('active'); 
+		}
+		});
+
+
+        volumeControl.addEventListener('input', (e) => {
+            audioPlayer.volume = e.target.value;
+        });
+
+        loadSong(currentSongIndex);
+		
+		audioPlayer.addEventListener('ended', () => {
+		currentSongIndex = (currentSongIndex + 1) % songs.length; 
+		loadSong(currentSongIndex); // Load and play the next song
+		});
+
+    </script>
+</body>
+</html>
